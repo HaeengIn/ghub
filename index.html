@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>파주교하고등학교 비공식 커뮤니티</title>
     </head>
+
+
+    
     <body>
         <div class="top">
             <h4 class="title_top">
@@ -14,16 +17,33 @@
                 </a>
             </h4>
         </div>
-        <input type="search" name="search" id="search" placeholder="검색" />
+
+        
+
+        <div class="search">
+            <form action="search.html" method="get">
+                <input type="text" name="search" placeholder="검색어를 입력하세요.">
+                <input type="submit" value="검색">
+            </form>
+        </div>
+        
+
+        
         <div class="log">
             <input type="button" name="login" id="login" value="로그인" onclick="location.href='login/login.html'" />
             <input type="button" name="signin" id="signin" value="회원가입" onclick="location.href='signin/signin.html'" />
         </div>
+
+
+        
         <div class="channels">
             <button type="button" class="photo" onclick="location.href='channels/photo.html'">포토존</button>
             <button type="button" class="video" onclick="location.href='channels/video.html'">짭튜브</button>
             <button type="button" class="threads" onclick="location.href='channels/threads.html'">스레드</button>
+            <button type="button" class="studyroom" onclick="location.href='channels/studyroom.html'">스터디룸</button>
         </div>
+
+
         
         <div class="support">
             <a href="support/about.html">About / 정보</a>
@@ -31,5 +51,8 @@
             <br />
             &copy;  SPC VISUAL STUDIO 
         </div>
+
+
+        
     </body>
 </html>
