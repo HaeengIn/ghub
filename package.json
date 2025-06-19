@@ -19,7 +19,8 @@
   "description": "",
   "dependencies": {
     "@hono/node-server": "^1.14.4",
-    "hono": "^4.8.0"
+    "hono": "^4.8.0",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/node": "^24.0.3",
