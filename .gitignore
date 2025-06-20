@@ -16,6 +16,7 @@ backend/dist/
 backend/.env
 backend/.env.*
 backend/static/
+backend/.wrangler/
 
 *.swp
 *.tmp
