@@ -11,8 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hono/node-server": "^1.14.4",
-    "hono": "^4.8.1",
+    "express": "^5.1.0",
     "serve-static": "^2.2.0"
   },
   "devDependencies": {
